@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart page</title>
+    <link rel="stylesheet" href="../CSS_folder/style.css">
+</head>
+
+<body>
+
+    <div id="purchased_modal_pop_up">
+        <div class="modal__window">
+            <a class="modal__close" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            <h1><i class="fa-regular fa-circle-check"></i></h1>
+            <h3>Purchased Completed!</h3>
+            <h3>Thanks for your Purchasing</h3>
+            <a href="../Html_folder/index.html" class="go_back_to_home_btn">back to  home </a>
+           
+
+        </div>
+      </div>
+        
+    <div id="Log_in">
+        <div class="Account__modal__window">
+            <a class="Account__modal__close" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            <h4>Log in Form</h4>
+
+            <form action="Log_In" class="Log_In">
+              
+                 <div class="Log_In_Box">  
+                <input type="email" name="mail" id="log_in_email"  class="Log_in_inputs" required="required"> 
+                <label for="log_in_email">Email</label>
+          </div>
+              
+          <div class="Log_In_Box">  
+            <input type="password" name="mail" id="log_in_password"  class="Log_in_inputs" required="required"> 
+            <label for="log_in_password">password</label>
+      </div>
+      
+            <div class="terms_and_conditions_container">
+              <input type="checkbox" name="termCond" id="TermAndConditions" required> <label for="TermAndConditions">Please Accept our <a href="#">terms and Conditions</a>. </label>
+            </div>
+                <input type="button" value="Log In" class="Log_In_Submit">
+
+            </form>
+
+        </div>
+      </div>
+
+      <div id="Sign_Up">
+        <div class="Account__modal__window">
+            <a class="Account__modal__close" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            <h4>Sign up Form</h4>
+
+            <form action="Sign_in" class="Log_In">
+              
+                 <div class="Log_In_Box">  
+                <input type="email" name="mail" id="sign_up_email"  class="Log_in_inputs" required="required"> 
+                <label for="sign_up_email">Email</label>
+          </div>
+              
+          <div class="Log_In_Box">  
+            <input type="password" name="mail" id="sign_up_password"  class="Log_in_inputs" required="required"> 
+            <label for="sign_up_password">password</label>
+      </div>
+      
+            <div class="terms_and_conditions_container">
+              <input type="checkbox" name="termCond" id="TermAndConditionsSignUp" required> <label for="TermAndConditions">Please Accept our <a href="#">terms and Conditions</a>. </label>
+            </div>
+                <input type="button" value="Log In" class="Log_In_Submit">
+
+            </form>
+
+        </div>
+      </div>
+    <!-- Modal Pop Up -->
+
+        <div class="container">
+
+            <div class="nav_bar">
+                <h1 class="logo">Kaze</h1>
+        
+                <input type="checkbox" name="hamburger" id="hamburger">
+                <label for="hamburger" class="nav-btn open_menu"><i class="fa-solid fa-bars"></i></label>
+         
+                <ul class="nav_tab">
+                    <li class="nav_list">
+                        <a href="./index.html" class="nav_links ">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="./Health_benefits.html" class="nav_links">Health benefits</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="./Rising_Desks.html" class="nav_links">Rising Desks</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="./Contact_Us.html" class="nav_links ">Contact Us</a>
+                    </li>
+    
+            
+    
+                    <li class="nav_list">
+                        <a href="./Cart.html" class="nav_links active"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>   
+                    <li class="nav_list dropdown">
+                        <button  class="nav_links"><i class="fa-solid fa-user-circle"></i> </button> 
+                        <ul class="dropdown_menu">
+                            <li class="dropdown_list"><a href="#Log_in" class="dropdown_items">Log in</a></li>
+                            <li class="dropdown_list"><a href="#Sign_Up" class="dropdown_items">Sign up</a></li>
+                        </ul>
+                    </li>
+                      
+                <li class="nav_list searchbox_container">
+                    <div class="searchbox">
+                        <input type="text" placeholder="search">
+                        <button><i class="fa-solid fa-magnifying-glass"></i> </button>
+                    </div>
+                </li>
+
+                </ul>
+            </div>
+    
+
+            <div class="Cart_container">
+                <div class="purchased_products_details">
+                    <div class="Cart_products product_1">
+                        <div class="img_container">
+                            <img src="../Images/Products/Product2.jpg" alt="Purchased Product Image">
+                        </div>
+                        <div class="content"> 
+                            <h1 class="title">FRealspace</h1>
+                          
+                                <p> Price <span> $239.99</span></p>
+                                <div class="Quantity_btn">
+                        
+                                    <button class="inc_btn">+</button>
+                                    <span>1</span>
+                                    <button class="dec_btn">-</button>
+                                </div>
+                            <div class="cart_btns">
+                                <a href="../Html_folder/Rising_Desks.html" class="view_details">
+                                    View Details
+                                </a>
+                                <a href="#" class="del_btn"><i class="fa-solid fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product one -->
+
+                    <div class="Cart_products product_2">
+                        <div class="img_container">
+                            <img src="../Images/Products/Product1.webp" alt="Purchased Product Image">
+                        </div>
+                        <div class="content"> 
+                            <h1 class="title">FLEXISPOT Standing Desk</h1>
+                          
+                                <p> Price <span> $500</span></p>
+                          
+                            <div class="Quantity_btn">
+                        
+                                <button class="inc_btn">+</button>
+                                <span>1</span>
+                                <button class="dec_btn">-</button>
+                            </div>
+                            <div class="cart_btns">
+                                <a href="../Html_folder/Rising_Desks.html" class="view_details">
+                                    View Details
+                                </a>
+                                <a href="#" class="del_btn"><i class="fa-solid fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product two -->
+
+                    
+                </div>
+              <div class="purchased_products_total">
+                    <table >
+                     <tr>
+                        <th>product name </th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                     </tr>
+                     <tr>
+                        <td>FRealspace</td>
+                        <td>1</td>
+                        <td>$239.99</td>
+                     </tr>
+                     <tr>
+                        <td>FLEXISPOT Standing Desk</td>
+                        <td>1</td>
+                        <td>$500</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2">Total Price</td>
+                        <td>$739.99</td>
+                     </tr>
+                    </table>
+                    <a class="buy_now_btn" href="#purchased_modal_pop_up">Buy Now</a>
+              </div>
+            </div>
+        </div>
+        <footer>
+      
+            <div class="ft-row">
+                <div class="ft-cols ft-col-1">
+                    <div class="ft-col-1-div">
+                        
+                    <h1 class="ft-logo">
+                        Kaze company
+                    </h1>
+    
+                    <h2 class="ft-Location">
+                         Kaze's Location <i class="fa-solid fa-location-pin"></i>
+                    </h2>
+    
+                    <p>Kyi myint tine, Q63W+Q2H, Myo Pat Rd, Syriam</p>
+                    
+                    <div class="ft_contact_Links">
+                        
+                        <a href="tel:+959455554003" class="ft_Phone_call">  <i class="fa-solid fa-phone"></i> +959-455-554-003 </a>
+    
+                        <a href="mailto:theinokepaingsoe@gmail.com" class="ft_Email"> <i class="fa-regular fa-envelope"></i> Kaze@gmail.com </a>
+                    
+                        <a href="www.facebook.com" class="ft_facebook"> <i class="fa-brands fa-facebook"></i> Kaze</a>
+    
+                        <a href="www.instagram.com" class="ft_instagram">  <i class="fa-brands fa-instagram"></i> Kaze_Rising_Desks</a>
+    
+                        <a href="www.twitter.com" class="ft_twitter"> <i class="fa-brands fa-twitter"></i> Kaze </a>
+                
+                    </div>
+    
+                    </div>
+                </div>
+                <div class="ft-cols ft-col-2">
+                    <div class="ft-col-2-div">
+                        <h1 class="ft-Categories-title">
+                            Categories
+                        </h1>
+    
+                        <div class="Categories_link">
+                            <a href="./index.html" class="">Home</a>
+                            <a href="./Health_benefits.html" class="">Health benefits</a>
+                             <a href="./Rising_Desks.html" class="">Rising Desks</a>
+                             <a href="./Contact_Us.html" class="">Contact Us</a>
+                             <a href="./Cart.html" class="">Cart <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="ft-cols ft-col-3">
+    
+                    <div class="ft-col-3-div">
+                        <h1 class="ft-Contact-Us-title"> 
+                            Contact Us
+                        </h1>
+    
+                        <form action="submit">
+                           
+    
+                        <!-- <label for="user_email" class="Contact_label">Email</label> -->
+                        <div class="Input_Box">  
+                             <input type="email" name="mail" id="user_email"  class="contact_us_inputs" required="required"> 
+                             <label for="user_email">Email</label>
+                       </div>
+    
+                       <div class="Input_Names_Box">
+                        <div class="Input_Box">  
+                            <input type="text" name="firstname" id="firstname"  class="contact_us_inputs" required="required"> 
+                            <label for="firstname">First name</label>
+                      </div>
+                      <div class="Input_Box">  
+                        <input type="text" name="lastname" id="lastname"  class="contact_us_inputs" required="required"> 
+                        <label for="lastname">Last name</label>
+                  </div>
+                       </div>
+    
+                       <label for="Description" class="Contact_label">Description</label>
+                       <div class="Input_Box">  
+                        <textarea  name="Desc" id="Description" placeholder="Description" class="contact_us_inputs" rows="7" cols="20" ></textarea>
+                        
+                  </div>
+    
+                        <input type="button" value="submit" class="footer_submit">
+                       
+                        </form>
+    
+                    </div>
+    
+                </div>
+            </div>
+        
+        </footer>
+</body>
+</html>

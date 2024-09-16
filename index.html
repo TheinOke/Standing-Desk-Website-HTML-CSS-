@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+<!--CSS FILE LINK-->
+<link rel="stylesheet" href="../CSS_folder/style.css">
+</head>
+
+<body>
+  
+    
+    
+      <div id="Log_in">
+        <div class="Account__modal__window">
+            <a class="Account__modal__close" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            <h4>Log in Form</h4>
+
+            <form action="Log_In" class="Log_In">
+              
+                 <div class="Log_In_Box">  
+                <input type="email" name="mail" id="log_in_email"  class="Log_in_inputs" required="required"> 
+                <label for="log_in_email">Email</label>
+          </div>
+              
+          <div class="Log_In_Box">  
+            <input type="password" name="mail" id="log_in_password"  class="Log_in_inputs" required="required"> 
+            <label for="log_in_password">password</label>
+      </div>
+      
+            <div class="terms_and_conditions_container">
+              <input type="checkbox" name="termCond" id="TermAndConditions" required> <label for="TermAndConditions">Please Accept our <a href="#">terms and Conditions</a>. </label>
+            </div>
+                <input type="button" value="Log In" class="Log_In_Submit">
+
+            </form>
+
+        </div>
+      </div>
+
+      <div id="Sign_Up">
+        <div class="Account__modal__window">
+            <a class="Account__modal__close" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            <h4>Sign up Form</h4>
+
+            <form action="Sign_in" class="Log_In">
+              
+                 <div class="Log_In_Box">  
+                <input type="email" name="mail" id="sign_up_email"  class="Log_in_inputs" required="required"> 
+                <label for="sign_up_email">Email</label>
+          </div>
+              
+          <div class="Log_In_Box">  
+            <input type="password" name="mail" id="sign_up_password"  class="Log_in_inputs" required="required"> 
+            <label for="sign_up_password">password</label>
+      </div>
+      
+            <div class="terms_and_conditions_container">
+              <input type="checkbox" name="termCond" id="TermAndConditionsSignUp" required> <label for="TermAndConditions">Please Accept our <a href="#">terms and Conditions</a>. </label>
+            </div>
+                <input type="button" value="Log In" class="Log_In_Submit">
+
+            </form>
+
+        </div>
+      </div>
+    <!-- Modal Pop Up -->
+
+    <div class="container">
+        <div class="nav_bar">
+            <h1 class="logo">Kaze</h1>
+    
+            <input type="checkbox" name="hamburger" id="hamburger">
+            <label for="hamburger" class="nav-btn open_menu"><i class="fa-solid fa-bars"></i></label>
+     
+            <ul class="nav_tab">
+                <li class="nav_list">
+                    <a href="./index.html" class="nav_links active">Home</a>
+                </li>
+                <li class="nav_list">
+                    <a href="./Health_benefits.html" class="nav_links">Health benefits</a>
+                </li>
+                <li class="nav_list">
+                    <a href="./Rising_Desks.html" class="nav_links">Rising Desks</a>
+                </li>
+                <li class="nav_list">
+                    <a href="./Contact_Us.html" class="nav_links">Contact Us</a>
+                </li>
+
+        
+
+                <li class="nav_list">
+                    <a href="./Cart.html" class="nav_links"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>   
+                <li class="nav_list dropdown">
+                    <button  class="nav_links"><i class="fa-solid fa-user-circle"></i> </button> 
+                    <ul class="dropdown_menu">
+                        <li class="dropdown_list"><a href="#Log_in" class="dropdown_items">Log in</a></li>
+                        <li class="dropdown_list"><a href="#Sign_Up" class="dropdown_items">Sign up</a></li>
+                    </ul>
+                </li>
+               
+                <li class="nav_list searchbox_container">
+                    <div class="searchbox">
+                        <input type="text" placeholder="search">
+                        <button><i class="fa-solid fa-magnifying-glass"></i> </button>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    
+        <!--Navigation Bar End Here-->
+    
+    
+        <header class="header" id="header">
+            <div class="row">
+                <div class="col-50">
+                    <div class="bg_pattern"></div>
+                    
+                    
+                    <div class="hero_section_content">
+                        <h1><i class="fa-solid fa-quote-left"></i>Stand Up to Your Potential <i class="fa-solid fa-quote-right"></i></h1>
+                        <p>
+                            Stand Tall, Conquer More: Ditch the chair and ignite your workday with a standing desk from Kaze. Boost focus, beat back pain, and unlock your full potential – all while adding some movement to your day. Explore our curated collection and redefine your workday, standing tall!</p>
+                        <!-- <a href="" class="hero_section_btn">View More</a> -->
+                        <div class="View_more_btn">
+                            <a href="../Html_folder/Rising_Desks.html">View Products</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="slider_container">
+                        <div class="slider">
+                            <div class="slide one">
+                                <img src="../Images/pexels-carlos-montelara-5998739.jpg" alt="Standing Desk Carousel page 1">
+                                
+                            </div>
+                            <div class="slide two">
+                                <img src="../Images/pexels-pavel-danilyuk-8001036.jpg" alt="Standing Desk Carousel page 2">
+                                
+                            </div>
+                            <div  class="slide three" >
+                               <img src="../Images/pexels-pavel-danilyuk-8001034.jpg" alt="Standing Desk Carousel page 3" >
+                               
+                            </div>
+                            
+                           
+                        </div>
+                        <!-- slider_END HERE -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+
+     
+
+
+        <section class="health_benefits">
+            <h1>Health benefits</h1>
+            <div class="checkers_containers">
+                <div class=" checkers">
+                    <div class="health_content">
+                        <h1>01</h1>
+                        <p>Ditch the slouch and boost your metabolism. Standing burns more calories than sitting...</p>
+                    </div>
+                </div>
+                <div class=" checkers"> 
+                    <div class="health_image_container_one">
+                        <img src="../Images/Flexispot.jpg" alt="Flexispot standing desk" class="health_img_one" loading="lazy">
+                    </div>
+                </div>
+            </div>
+          
+            <div class="checkers_containers">
+                <div class=" checkers">
+                    <div class="health_image_container_two">  
+                        <img src="../Images/StandingDesk1.jpg" alt="Standing Desk image" loading="lazy" class="health_img_two">    
+                    </div>
+                </div>
+                <div class=" checkers">
+                    <div class="health_content">
+                        <h1>02</h1>
+                        <p>Standing promotes a natural, upright posture, relieving pressure on your spine..</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="health_benefits_btn"><a class="" href="./Health_benefits.html">See More <i class="fa-solid fa-arrow-right"></i></a></div>
+
+            
+
+        </section>
+        
+        <!-- HEALTH BENEFIT SECTION END HERE -->
+
+        <!-- Rising Desks start here -->
+
+        <section class="rising_desk_section">
+            <h1>Special Offers</h1>
+            <div class="scroll_text">
+                <p>Scroll Down</p>
+                <i class="fa-solid fa-computer-mouse"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+                
+            </div>
+             <div class="rising_desks">
+                        
+            <section class="rising_desks_cols">
+                   <div class="rising_desks_flex_card">
+                        <div class="flex_card_img_container">
+                            <img src="../Images/Products/Jarvis-Bamboo-Rectangular-Black.webp" alt="Special Offer Standing Desk 1 ">
+                        </div>
+                        <div class="text_content">
+                            <h1>Fully Jarvis Standing Desk</h1>
+                            <div class="stars">
+                                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                            </div>
+                            <p> This desk is customizable and has a height adjustment range of 29" to 48.25". It can support up to 350 pounds and has several surface size options.</p>
+                            <span>price <span> $549</span></span>
+                            <div class="rising_desks_buttons">
+                                <a href="../Html_folder/Cart.html" class="btn_buy">Buy Now</a>
+
+                            </div>
+                        </div>
+                   </div>
+            </section>
+            <section class="rising_desks_cols">
+                <div class="rising_desks_flex_card">
+                    <div class="flex_card_img_container">
+                        <img src="../Images/Products/FlexispotStandingDesk.webp" alt="Special Offer Standing Desk 2">
+                    </div>
+                    <div class="text_content">
+                        <h1>Flexispot Standing Desk</h1>
+                        <div class="stars">
+                            <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>This desk is budget-friendly and accommodates various heights. It has a surface size of 48" x 24" and a height adjustment range of 28.7" to 48.4".  </p>
+                        <span>price <span>$299.99</span></span>
+                        <div class="rising_desks_buttons">
+                            <a href="../Html_folder/Cart.html" class="btn_buy">Buy Now</a>
+
+                        </div>
+                    </div>
+               </div>
+        </section>
+        <section class="rising_desks_cols">
+            <div class="rising_desks_flex_card">
+                <div class="flex_card_img_container">
+                    <img src="../Images/Products/Vivo32inchDesk.jpg" alt="Special Offer Standing Desk 3">
+                </div>
+                <div class="text_content">
+                    <h1>Vivo K Series</h1>
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>This desk converter has a surface size of 35" x 23" and a height adjustment range of 6.5" to 17". </p>
+                    <span>price <span>$139.99</span></span>
+                    <div class="rising_desks_buttons">
+                        <a href="../Html_folder/Cart.html" class="btn_buy">Buy Now</a>
+
+                    </div>
+                </div>
+           </div>
+    </section>
+        </div>
+
+        <!-- <a href="#" class="rising_desk_btn">View all products</a> -->
+
+        </section >
+
+        <section class="set_up_section">
+            <h1>Desk Set Up</h1>
+           <div class="set_up_container">
+            <div class="row">
+                <div class="col-50">
+
+                    <div class="set_up_text_content">
+                        <h1> Dive into setups designed for maximum comfort and support, with adjustable heights, monitor arms, and ergonomic chairs. </h1>
+                        
+                    </div>
+
+                </div>
+                <div class="col-50">
+
+                   <div class="video_container" >
+                    <video src="../vid/vids.mp4" autoplay controls ></video>
+                   </div>
+
+                </div>
+            </div>
+           </div>
+        </section>
+
+    </div>
+
+    <!-- FOOTER START HERE -->
+    <footer>
+      
+        <div class="ft-row">
+            <div class="ft-cols ft-col-1">
+                <div class="ft-col-1-div">
+                    
+                <h1 class="ft-logo">
+                    Kaze company
+                </h1>
+
+                <h2 class="ft-Location">
+                    Kaze's Location <i class="fa-solid fa-location-pin"></i>
+                </h2>
+
+                <p>Kyi myint tine, Q63W+Q2H, Myo Pat Rd, Syriam</p>
+                
+                <div class="ft_contact_Links">
+                    
+                    <a href="tel:+959455554003" class="ft_Phone_call">  <i class="fa-solid fa-phone"></i> +959-455-554-003 </a>
+
+                    <a href="mailto:theinokepaingsoe@gmail.com" class="ft_Email"> <i class="fa-regular fa-envelope"></i> Kaze@gmail.com </a>
+                
+                    <a href="www.facebook.com" class="ft_facebook"> <i class="fa-brands fa-facebook"></i> Kaze</a>
+
+                    <a href="www.instagram.com" class="ft_instagram">  <i class="fa-brands fa-instagram"></i> Kaze_Rising_Desks</a>
+
+                    <a href="www.twitter.com" class="ft_twitter"> <i class="fa-brands fa-twitter"></i> Kaze </a>
+            
+                </div>
+
+                </div>
+            </div>
+            <div class="ft-cols ft-col-2">
+                <div class="ft-col-2-div">
+                    <h1 class="ft-Categories-title">
+                        Categories
+                    </h1>
+
+                    <div class="Categories_link">
+                        <a href="./index.html" class="">Home</a>
+                        <a href="./Health_benefits.html" class="">Health benefits</a>
+                         <a href="./Rising_Desks.html" class="">Rising Desks</a>
+                         <a href="./Contact_Us.html" class="">Contact Us</a>
+                         <a href="./Cart.html" class="">Cart <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ft-cols ft-col-3">
+
+                <div class="ft-col-3-div">
+                    <h1 class="ft-Contact-Us-title"> 
+                        Contact Us
+                    </h1>
+
+                    <form action="submit">
+                       
+
+                    <!-- <label for="user_email" class="Contact_label">Email</label> -->
+                    <div class="Input_Box">  
+                         <input type="email" name="mail" id="user_email"  class="contact_us_inputs" required="required"> 
+                         <label for="user_email">Email</label>
+                   </div>
+
+                   <div class="Input_Names_Box">
+                    <div class="Input_Box">  
+                        <input type="text" name="firstname" id="firstname"  class="contact_us_inputs" required="required"> 
+                        <label for="firstname">First name</label>
+                  </div>
+                  <div class="Input_Box">  
+                    <input type="text" name="lastname" id="lastname"  class="contact_us_inputs" required="required"> 
+                    <label for="lastname">Last name</label>
+              </div>
+                   </div>
+
+                   <label for="Description" class="Contact_label">Description</label>
+                   <div class="Input_Box">  
+                    <textarea  name="Desc" id="Description" placeholder="Description" class="contact_us_inputs" rows="7" cols="20" ></textarea>
+                    
+              </div>
+
+                    <input type="button" value="submit" class="footer_submit">
+                   
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    
+    </footer>
+
+    <div class="scroll_top_btn"> <a href="#header"> <i class="fa-solid fa-chevron-up"></i> </a>  </div>
+
+</body>
+</html>
